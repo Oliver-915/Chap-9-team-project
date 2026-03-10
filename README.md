@@ -14,15 +14,45 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| `main()`    |               |  author     |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates NONE  | outputs Functions            |
+| `name:string`      | takes input for name NONE | returns total |
 ***
-| `function name2`    |               |     author   |
+| `get_shift()`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
+***
+| `choose_option()`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
+***
+| `get_shift()`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
+***
+| `get_shift()`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
+***
+| `get_shift()`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
+***
+| `get_shift()`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for NONE  |              |
+| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `name:string`      | takes input for name NONE | returns total |
 ***
