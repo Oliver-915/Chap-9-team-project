@@ -29,30 +29,30 @@ graph TD;
 | `choose_option()`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for NONE  |              |
-| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `time:integer`     | calculates user input | outputs true/false         |
 | `name:string`      | takes input for name NONE | returns total |
 ***
-| `get_shift()`    |               |     author   |
+| `get_message()`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for NONE  |              |
-| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `time:integer`     | calculates user input  | outputs key          |
 | `name:string`      | takes input for name NONE | returns total |
 ***
-| `get_shift()`    |               |     author   |
+| `create_key(shift)`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for NONE  |              |
-| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `argument:type`    | takes input from the user for (shift)  |              |
+| `time:integer`     | calculates Shift| outputs as caesar cipher           |
 | `name:string`      | takes input for name NONE | returns total |
 ***
-| `get_shift()`    |               |     author   |
+| `encode(message, key)`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for NONE  |              |
-| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `argument:type`    | takes input from the user for message and key |              |
+| `time:integer`     | calculates  message  | outputs as string           |
 | `name:string`      | takes input for name NONE | returns total |
 ***
-| `get_shift()`    |               |     author   |
+| `decode(message, key)`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for NONE  |              |
-| `time:integer`     | calculates Shift Value  | outputs as string           |
+| `argument:type`    | takes input from the user for message and key  |              |
+| `time:integer`     | calculates message  | outputs as string           |
 | `name:string`      | takes input for name NONE | returns total |
 ***
