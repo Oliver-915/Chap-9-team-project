@@ -3,13 +3,13 @@
 def main():
     #Main accepts no arguments
     #main should call all other functions to build the entire program
-    pass
+    get_shift()
 
 def get_shift():
     #get_shift accepts no arguments
     #get_shift should prompt the user for the shift value and return the value as a string
     #Validate for integers 1-25, inclusive.
-    pass
+    shift_value_number = int(input("Enter a number from 1 - 25 for your encoding shift value:"))
     
 def choose_option():
     #choose_option accepts no arguments
